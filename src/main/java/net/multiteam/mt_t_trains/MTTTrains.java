@@ -58,7 +58,7 @@ public class MTTTrains {
     }
 
     private void registerTrainParts() {
-        registerTrainPart("db_ice_motorcart", EntityDBIceMotorcart.class);
+        registerTrainPart("db_ice_motorcart_electric", EntityDBIceMotorcart.class);
         registerTrainPart("rhb_te_2_2", EntityRbhTE22.class);
         registerTrainPart("C62_steam_locomotive", EntityC62SteamLocomotive.class);
         registerTrainPart("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender.class);

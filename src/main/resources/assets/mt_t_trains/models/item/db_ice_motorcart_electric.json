@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "electric/DB_ICE_motorcart",
-		"particle": "electric/DB_ICE_motorcart"
+		"0": "mt_t_trains:models/db_ice_motorcart",
+		"particle": "mt_t_trains:models/db_ice_motorcart"
 	},
 	"elements": [
 		{

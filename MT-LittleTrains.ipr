@@ -171,8 +171,11 @@
   <component name="ProjectDictionaryState">
     <dictionary name="user">
       <words>
+        <w>blockrailbase</w>
+        <w>blockstate</w>
         <w>crccm</w>
         <w>dbrown</w>
+        <w>enumraildirection</w>
         <w>keybind</w>
         <w>mcversion</w>
         <w>minecraft</w>

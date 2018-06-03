@@ -22,7 +22,7 @@ public class EntityC62SteamLocomotiveTender extends EntityTrainPart {
         {
             body = new ItemStack(MTItems.C62_STEAM_LOCOMOTIVE_TENDER_BODY);
             wheel = new ItemStack(MTItems.TRAIN_WHEEL[1]);
-            engine = new ItemStack(MTItems.ENGINE[3]);
+            engine = new ItemStack(MTItems.ENGINE[2]);
         }
     }
 

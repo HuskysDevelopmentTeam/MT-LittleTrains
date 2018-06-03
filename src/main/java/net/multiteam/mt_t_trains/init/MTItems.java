@@ -28,11 +28,11 @@ public class MTItems {
         for(EnumWheelTypes wheelTypes : EnumWheelTypes.values()) {
             TRAIN_WHEEL[wheelTypes.getId()] = new ItemPart(wheelTypes.getName() + "_wheel");
         }
-        DB_ICE_MOTORCART_BODY = new ItemColoredPart("db_ice_motorcart_body");
+        DB_ICE_MOTORCART_BODY = new ItemColoredPart("db_ice_motorcart_electric_body");
         C62_STEAM_LOCOMOTIVE_BODY = new ItemColoredPart("C62_steam_locomotive_body");
         C62_STEAM_LOCOMOTIVE_TENDER_BODY = new ItemColoredPart("C62_steam_locomotive_tender_body");
         RBH_TE_2_2_BODY = new ItemColoredPart("rhb_te_2_2_body");
-        DB_ICE_MOTORCART = new ItemModelTrain("db_ice_motorcart", EntityDBIceMotorcart.class);
+        DB_ICE_MOTORCART = new ItemModelTrain("db_ice_motorcart_electric", EntityDBIceMotorcart.class);
         RBH_TE_2_2 = new ItemModelTrain("rhb_te_2_2", EntityRbhTE22.class);
         C62_STEAM_LOCOMOTIVE = new ItemModelTrain("C62_steam_locomotive", EntityC62SteamLocomotive.class);
         C62_STEAM_LOCOMOTIVE_TENDER = new ItemModelTrain("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender.class);

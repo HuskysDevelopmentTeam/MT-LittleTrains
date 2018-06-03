@@ -10,7 +10,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.multiteam.mt_t_trains.MTTTrains;
 import net.multiteam.mt_t_trains.entity.EntityTrain;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityDBIceMotorcart;
 import net.multiteam.mt_t_trains.init.MTBlocks;
 
 import static net.multiteam.mt_t_trains.Reference.MOD_ID;
@@ -28,8 +27,12 @@ public class ItemModelTrain extends ItemMod {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
 
-        if(worldIn.getBlockState(new BlockPos(playerIn.posX, playerIn.posY, playerIn.posZ)) == MTBlocks.RAIL.getDefaultState()) {
-            worldIn.spawnEntity(new EntityDBIceMotorcart(worldIn));
+        if(worldIn.getBlockState(new BlockPos(playerIn.posX, playerIn.posY, playerIn.posZ)) == MTBlocks.STRAIGHT_TRACK.getDefaultState()) {
+            try {
+                worldIn.spawnEntity(entity.newInstance());
+            } catch (InstantiationException | IllegalAccessException e) {
+                e.printStackTrace();
+            }
             System.out.print(String.format("Spawned %s" + "\n", entity.getName()));
             return ActionResult.newResult(EnumActionResult.PASS, new ItemStack(this));
         }

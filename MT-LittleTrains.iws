@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ec9530-b315-4a47-a191-eeec17638311" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderC62SteamLocomotive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderC62SteamLocomotiveTender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderRbhTE22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityRbhTE22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender_body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2_body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/C62_steam_locomotive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/C62_steam_locomotive_tender.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/rhb_te_2_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MT-LittleTrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MT-LittleTrains.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBufferRail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockControlBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockModellerTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/diesel_engine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/electric_engine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/steam_boiler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/electric_engine.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MT-LittleTrains.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/MT-LittleTrains.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MT-LittleTrains.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MT-LittleTrains.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
@@ -27,95 +16,24 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/MrCrayfishRCCarMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/RemoteMovementInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/TabCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/BlockObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/BlockRamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/attribute/Angled.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/ClientProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/KeyBindingOverride.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/CustomLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/ModelRamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/baked/BakedRampSlope.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/properties/UnlistedBooleanProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/properties/UnlistedTextureProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/render/RenderCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/entity/EntityCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/entity/ISync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/event/ModEvents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiAdvancedButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiCarSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/component/ItemSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/component/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/interfaces/ClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/interfaces/ExtendedRender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModBlocks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCases.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCrafting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModEntities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModSounds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/interfaces/IAttachment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/interfaces/IItemSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemWheel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/PacketHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageExplodeCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageMoveCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageRemoveAttachment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageSyncProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageUpdateProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/object/Case.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/proxy/IProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/proxy/ServerProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/GuiHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/QuadHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/ReflectionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RenderUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RotationHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/StateHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/TransformationBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderTestTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderDBIceMotorcart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityTestTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityDBIceMotorcart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRailPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockPowerRail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemModelTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemModelTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/CProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/CProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/cases.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/lang/en_us.lang" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/car.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/car_base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/case_4wd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/case_buggy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/case_standard.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/controller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/models/item/wheel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/sounds.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/sounds/connect.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/textures/gui/car_settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/crccm/textures/gui/inventory_select.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/large_wheel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/big_wheel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/test_train_body.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_body.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_body.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_tender.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender_body.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_tender_body.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/C62_steam_locomotive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/c62_steam_locomotive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/C62_steam_locomotive_tender.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/c62_steam_locomotive_tender.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -175,11 +93,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="EntityDBIceMotorcart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityDBIceMotorcart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/Reference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MTTTrains.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="60" column="74" lean-forward="true" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
+            <state relative-caret-position="81">
+              <caret line="60" column="52" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -187,8 +123,65 @@
       <file leaf-file-name="MTItems.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="336">
+              <caret line="37" column="126" lean-forward="true" selection-start-line="37" selection-start-column="126" selection-end-line="37" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityRbhTE22.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityRbhTE22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderRbhTE22.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderRbhTE22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_ice_motorcart_electric.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_ice_motorcart_electric_body.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rhb_te_2_2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rhb_te_2_2_body.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2_body.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -209,7 +202,6 @@
       <find>0.4f</find>
       <find>0.38f</find>
       <find>0.0F</find>
-      <find>electric/DB_ICE_motorcart</find>
       <find>par</find>
       <find>zCoord</find>
       <find>GameRegistry.register</find>
@@ -217,6 +209,8 @@
       <find>mt_t_trains:models/db_ice_motorcart</find>
       <find>steam/C62_steam_locomotive</find>
       <find>electric/Rhb_TE_2-2</find>
+      <find>parts-ect/electric_engine</find>
+      <find>electric/DB_ICE_motorcart</find>
     </findStrings>
     <replaceStrings>
       <replace>mt_t_trains:models/wheel_s_n_l</replace>
@@ -229,6 +223,8 @@
       <replace>player</replace>
       <replace>mt_t_trains:models/C62_steam_locomotive</replace>
       <replace>mt_t_trains:models/rhb_te_2_2</replace>
+      <replace>mt_t_trains:models/electric_engine</replace>
+      <replace>mt_t_trains:models/db_ice_motorcart</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -238,16 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/QuadHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiCarSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/ModelRamp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/baked/BakedRampSlope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/component/ItemSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCrafting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModSounds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageExplodeCar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageRemoveAttachment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java" />
@@ -267,17 +253,11 @@
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/event/ModEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/PacketHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityDBIceMotorcart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityRbhTE22.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2_body.json" />
@@ -285,10 +265,26 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_body.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender_body.json" />
-        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderRbhTE22.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderC62SteamLocomotiveTender.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderC62SteamLocomotive.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/CProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRailPowered.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBufferRail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockModellerTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockControlBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemModelTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/diesel_engine.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/steam_engine.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/electric_engine.json" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderRbhTE22.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" />
       </list>
     </option>
   </component>
@@ -364,6 +360,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mt_t_trains" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mt_t_trains" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mt_t_trains" type="462c0819:PsiDirectoryNode" />
               <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,19 +423,7 @@
               <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
               <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
               <item name="todo-assets" type="462c0819:PsiDirectoryNode" />
-              <item name="train_cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-assets" type="462c0819:PsiDirectoryNode" />
-              <item name="train_electric" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-assets" type="462c0819:PsiDirectoryNode" />
-              <item name="train_steam" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,14 +449,15 @@
       <recent name="net.multiteam.mt_t_trains.client" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.multiteam.mt_t_trains.block" />
       <recent name="net.multiteam.mt_t_trains.client.render.vehicle" />
       <recent name="net.multiteam.mt_t_trains.entity.vehicle" />
       <recent name="net.multiteam.mt_t_trains.event" />
       <recent name="net.multiteam.mt_t_trains.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
@@ -471,12 +475,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_cart/passenger/DB_ICE_Passenger_cart.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_cart/passenger/DB_ICE_Restaurant_cart.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_electric/DB_ICE_motorcart_electric.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_electric/Rhb_TE_2-2_electric.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_steam/C62_steam_locomotive.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/train_steam/C62_steam_locomotive_tender.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_body.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2_body.json</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -484,8 +486,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/tracks/buffer_track.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/todo-assets/tracks/straight_buffer_track_1b.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -493,6 +495,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_body.json</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -689,17 +693,17 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.4994664" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32894737" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" visible="true" weight="0.3991228" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" visible="true" weight="0.3991228" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -716,180 +720,6 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2707/snapshot/20180603/forgeSrc-1.12.2-14.23.4.2707-sources.jar!/net/minecraft/client/settings/KeyBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="128" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
-          <folding>
-            <element signature="e#565#585#0" expanded="true" />
-            <element signature="e#792#800#0" expanded="true" />
-            <element signature="e#965#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/event/ModEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/utils/ReflectionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2707/snapshot/20180603/forgeSrc-1.12.2-14.23.4.2707-sources.jar!/net/minecraft/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="443" column="5" lean-forward="true" selection-start-line="443" selection-start-column="5" selection-end-line="443" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="5" lean-forward="true" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageTurnCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageMoveCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageMoveCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" lean-forward="true" selection-end-line="54" />
-          <folding>
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/PacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="93" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/RemoteMovementInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/RemoteMovementInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="4" lean-forward="true" selection-end-line="39" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/KeyBindingOverride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/ReflectionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/proxy/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/MrCrayfishRCCarMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/render/RenderCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1943">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/KeyBindingOverride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2707/snapshot/20180603/forgeSrc-1.12.2-14.23.4.2707-sources.jar!/net/minecraft/client/model/ModelBiped.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="336" column="8" selection-start-line="336" selection-start-column="8" selection-end-line="336" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/PacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/event/ModEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/SProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -911,29 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -951,51 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityDBIceMotorcart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/big_wheel.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityRbhTE22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1006,28 +776,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_tender.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_body.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_body.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/C62_steam_locomotive_tender_body.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/c62_steam_locomotive_tender_body.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
@@ -1036,13 +806,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_body.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,31 +842,233 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/tracks/power_track.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/other/controll_box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/other/controller.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/other/controller_ui.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/other/controller.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-assets/tracks/power_track.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockPowerRail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="301" column="36" lean-forward="true" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/HuskyLib2-1.12.2-1.2.1-sources.jar!/net/hdt/huskylib2/blocks/BlockModContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockModellerTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockControlBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBufferRail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2707/snapshot/20180603/forgeSrc-1.12.2-14.23.4.2707-sources.jar!/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1798">
+          <caret line="1343" column="9" selection-start-line="1343" selection-start-column="9" selection-end-line="1343" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/electric_engine.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/electric_engine.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/steam_boiler.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/diesel_engine.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemModelTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityC62SteamLocomotiveTender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityRbhTE22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderRbhTE22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="506">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/db_ice_motorcart_electric_body.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/rhb_te_2_2_body.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="345">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityDBIceMotorcart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="60" column="74" lean-forward="true" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
+        <state relative-caret-position="81">
+          <caret line="60" column="52" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="336">
+          <caret line="37" column="126" lean-forward="true" selection-start-line="37" selection-start-column="126" selection-end-line="37" selection-end-column="126" />
         </state>
       </provider>
     </entry>

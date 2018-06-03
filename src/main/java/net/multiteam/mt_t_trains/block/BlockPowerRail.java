@@ -11,24 +11,24 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BlockRailPowered extends BlockRailBase {
+public class BlockPowerRail extends BlockRailBase {
     public static final PropertyEnum<BlockRailBase.EnumRailDirection> SHAPE = PropertyEnum.create("shape", BlockRailBase.EnumRailDirection.class, p_apply_1_ -> p_apply_1_ != EnumRailDirection.NORTH_EAST && p_apply_1_ != EnumRailDirection.NORTH_WEST && p_apply_1_ != EnumRailDirection.SOUTH_EAST && p_apply_1_ != EnumRailDirection.SOUTH_WEST);
     public static final PropertyBool POWERED = PropertyBool.create("powered");
 
     private final boolean isActivator;
 
-    public BlockRailPowered() {
+    public BlockPowerRail() {
         this(false);
     }
 
-    private BlockRailPowered(boolean isActivator) {
+    private BlockPowerRail(boolean isActivator) {
         super(true, "powered_rail");
         this.isActivator = isActivator;
         this.setDefaultState(this.blockState.getBaseState().withProperty(SHAPE, BlockRailBase.EnumRailDirection.NORTH_SOUTH).withProperty(POWERED, Boolean.FALSE));
     }
 
     @SuppressWarnings("incomplete-switch")
-    protected boolean findPoweredRailSignal(World worldIn, BlockPos pos, IBlockState state, boolean p_176566_4_, int p_176566_5_) {
+    private boolean findPoweredRailSignal(World worldIn, BlockPos pos, IBlockState state, boolean p_176566_4_, int p_176566_5_) {
         if (p_176566_5_ >= 8) {
             return false;
         } else {
@@ -114,10 +114,10 @@ public class BlockRailPowered extends BlockRailBase {
         }
     }
 
-    protected boolean isSameRailWithPower(World worldIn, BlockPos pos, boolean p_176567_3_, int distance, BlockRailBase.EnumRailDirection p_176567_5_) {
+    private boolean isSameRailWithPower(World worldIn, BlockPos pos, boolean p_176567_3_, int distance, BlockRailBase.EnumRailDirection p_176567_5_) {
         IBlockState iblockstate = worldIn.getBlockState(pos);
 
-        if (!(iblockstate.getBlock() instanceof BlockRailPowered) || isActivator != ((BlockRailPowered) iblockstate.getBlock()).isActivator) {
+        if (!(iblockstate.getBlock() instanceof BlockPowerRail) || isActivator != ((BlockPowerRail) iblockstate.getBlock()).isActivator) {
             return false;
         } else {
             BlockRailBase.EnumRailDirection blockrailbase$enumraildirection = iblockstate.getValue(SHAPE);
