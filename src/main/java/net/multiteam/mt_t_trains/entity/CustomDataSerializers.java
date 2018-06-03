@@ -6,16 +6,11 @@ import net.minecraft.network.datasync.DataParameter;
 import net.minecraft.network.datasync.DataSerializer;
 import net.minecraft.network.datasync.DataSerializers;
 
-/**
- * Author: MrCrayfish
- */
-public class CustomDataSerializers
-{
-    public static final DataSerializer<EnumDyeColor> DYE_COLOR = new DataSerializer<EnumDyeColor>()
-    {
+public class CustomDataSerializers {
+
+    private static final DataSerializer<EnumDyeColor> DYE_COLOR = new DataSerializer<EnumDyeColor>() {
         @Override
-        public void write(PacketBuffer buf, EnumDyeColor value)
-        {
+        public void write(PacketBuffer buf, EnumDyeColor value) {
             buf.writeInt(value.getDyeDamage());
         }
 
@@ -25,20 +20,17 @@ public class CustomDataSerializers
         }
 
         @Override
-        public DataParameter<EnumDyeColor> createKey(int id)
-        {
+        public DataParameter<EnumDyeColor> createKey(int id) {
             return new DataParameter<>(id, this);
         }
 
         @Override
-        public EnumDyeColor copyValue(EnumDyeColor value)
-        {
+        public EnumDyeColor copyValue(EnumDyeColor value) {
             return value;
         }
     };
 
-    public static void register()
-    {
+    public static void register() {
         DataSerializers.registerSerializer(DYE_COLOR);
     }
 }

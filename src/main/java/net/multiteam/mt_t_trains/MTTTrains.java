@@ -9,9 +9,12 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
-import net.multiteam.mt_t_trains.entity.EntityVehicle;
+import net.multiteam.mt_t_trains.entity.CustomDataSerializers;
+import net.multiteam.mt_t_trains.entity.EntityTrain;
+import net.multiteam.mt_t_trains.entity.vehicle.EntityTestTrain;
 import net.multiteam.mt_t_trains.init.MTItems;
 import net.multiteam.mt_t_trains.network.PacketHandler;
+import net.multiteam.mt_t_trains.proxy.SProxy;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class MTTTrains {
@@ -19,18 +22,22 @@ public class MTTTrains {
     public static final CreativeTabs MT_T_TRAINS_CREATIVE_TAB = new CreativeTabs("mt_t_trains") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(MTItems.TRAIN_WEEL);
+            return new ItemStack(MTItems.TRAIN_WHEEL[1]);
         }
     };
+
     @Mod.Instance
     public static MTTTrains instance;
-    public int nextEntityId;
+
     @SidedProxy(clientSide = Reference.C_PROXY, serverSide = Reference.S_PROXY)
     public static SProxy proxy;
+
+    public int nextEntityId;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         PacketHandler.init();
+        CustomDataSerializers.register();
         proxy.preInit(event);
     }
 
@@ -47,13 +54,11 @@ public class MTTTrains {
         proxy.postInit(event);
     }
 
-    private void registerTrainParts()
-    {
-
+    private void registerTrainParts() {
+        registerTrainPart("test_wagon", EntityTestTrain.class);
     }
 
-    private void registerTrainPart(String id, Class<? extends EntityVehicle> clazz)
-    {
+    private void registerTrainPart(String id, Class<? extends EntityTrain> clazz) {
         EntityRegistry.registerModEntity(new ResourceLocation(Reference.MOD_ID, id), clazz, id, nextEntityId++, this, 64, 1, true);
     }
 

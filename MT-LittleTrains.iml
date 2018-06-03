@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/eclipse" />
       <excludeFolder url="file://$MODULE_DIR$/run" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/java/com/mrcrayfish/rccar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -18,7 +19,9 @@
           <root url="jar://$MODULE_DIR$/libs/HuskyLib2-1.12.2-1.2.1-deobf.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/libs/HuskyLib2-1.12.2-1.2.1-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

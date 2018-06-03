@@ -3,13 +3,12 @@ package net.multiteam.mt_t_trains.client.render;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
-import net.multiteam.mt_t_trains.entity.EntityLandVehicle;
+import net.multiteam.mt_t_trains.entity.EntityTrainPart;
 
 /**
  * Author: MrCrayfish
  */
-public class Wheel
-{
+public class Wheel {
     private float offsetX;
     private float offsetY;
     private float offsetZ;
@@ -18,8 +17,7 @@ public class Wheel
     private Side side;
     private Position position;
 
-    public Wheel(Side side, Position position, float width, float scale, float offsetX, float offsetY, float offsetZ)
-    {
+    public Wheel(Side side, Position position, float width, float scale, float offsetX, float offsetY, float offsetZ) {
         this.offsetX = offsetX;
         this.offsetY = offsetY;
         this.offsetZ = offsetZ;
@@ -29,41 +27,34 @@ public class Wheel
         this.position = position;
     }
 
-    public Wheel(Side side, Position position, float offsetX, float offsetZ)
-    {
+    public Wheel(Side side, Position position, float offsetX, float offsetZ) {
         this(side, position, 2.0F, 1.0F, offsetX, 0.0f, offsetZ);
     }
 
-    public Wheel(Side side, Position position, float offsetX, float offsetZ, float scale)
-    {
+    public Wheel(Side side, Position position, float offsetX, float offsetZ, float scale) {
         this(side, position, 2.0F, scale, offsetX, 0.0f, offsetZ);
     }
 
-    public Wheel(Side side, Position position, float offsetX, float offsetY, float offsetZ, float scale)
-    {
+    public Wheel(Side side, Position position, float offsetX, float offsetY, float offsetZ, float scale) {
         this(side, position, 2.0F, scale, offsetX, offsetY, offsetZ);
     }
 
-    public void render(EntityLandVehicle vehicle, float partialTicks)
-    {
+    public void render(EntityTrainPart vehicle, float partialTicks) {
         GlStateManager.pushMatrix();
         {
             GlStateManager.translate((offsetX / 16F) * side.offset, offsetY, offsetZ / 16F);
             GlStateManager.pushMatrix();
             {
-                if(position == Position.FRONT)
-                {
+                if (position == Position.FRONT) {
                     float wheelAngle = vehicle.prevWheelAngle + (vehicle.wheelAngle - vehicle.prevWheelAngle) * partialTicks;
                     GlStateManager.rotate(wheelAngle, 0, 1, 0);
                 }
-                if(vehicle.isMoving())
-                {
+                if (vehicle.isMoving()) {
                     GlStateManager.rotate(-getWheelRotation(vehicle, partialTicks), 1, 0, 0);
                 }
                 GlStateManager.translate((((width * scale) / 2) / 16F) * side.offset, 0, 0);
                 GlStateManager.scale(scale, scale, scale);
-                if(side == Side.RIGHT)
-                {
+                if (side == Side.RIGHT) {
                     GlStateManager.rotate(180F, 0, 1, 0);
                 }
                 Minecraft.getMinecraft().getRenderItem().renderItem(vehicle.wheel, ItemCameraTransforms.TransformType.NONE);
@@ -73,29 +64,24 @@ public class Wheel
         GlStateManager.popMatrix();
     }
 
-    private float getWheelRotation(EntityLandVehicle vehicle, float partialTicks)
-    {
-        if(position == Position.REAR)
-        {
+    private float getWheelRotation(EntityTrainPart vehicle, float partialTicks) {
+        if (position == Position.REAR) {
             return vehicle.prevRearWheelRotation + (vehicle.rearWheelRotation - vehicle.prevRearWheelRotation) * partialTicks;
         }
         return vehicle.prevFrontWheelRotation + (vehicle.frontWheelRotation - vehicle.prevFrontWheelRotation) * partialTicks;
     }
 
-    public enum Side
-    {
+    public enum Side {
         LEFT(-1), RIGHT(1), NONE(0);
 
         int offset;
 
-        Side(int offset)
-        {
+        Side(int offset) {
             this.offset = offset;
         }
     }
 
-    public enum Position
-    {
-        FRONT, REAR, NONE;
+    public enum Position {
+        FRONT, SECOND_FRONT, REAR, SECOND_REAR, NONE;
     }
 }
