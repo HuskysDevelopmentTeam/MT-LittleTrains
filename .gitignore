@@ -16,16 +16,8 @@ out
 # gradle
 build
 .gradle
-.bat
 
 # other
 eclipse
-run/*
-classes/*
-config/*
-saves/*
-resourcepacks/*
-logs/*
-*.txt
-usercache.json
-usernamecache.json
+run
+.shelf/
