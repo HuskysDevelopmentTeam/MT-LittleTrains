@@ -2,112 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ec9530-b315-4a47-a191-eeec17638311" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/MrCrayfishRCCarMod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/RemoteMovementInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/TabCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/BlockObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/BlockRamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/block/attribute/Angled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/ClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/KeyBindingOverride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/CustomLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/ModelRamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/baked/BakedRampSlope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/properties/UnlistedBooleanProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/model/block/properties/UnlistedTextureProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/client/render/RenderCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/entity/EntityCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/entity/ISync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/event/ModEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiAdvancedButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiCarSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/GuiHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/component/ItemSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/component/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/interfaces/ClickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/gui/interfaces/ExtendedRender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCrafting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModSounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/interfaces/IAttachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/interfaces/IItemSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/PacketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageExplodeCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageMoveCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageRemoveAttachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageSyncProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageUpdateProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/object/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/proxy/IProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/proxy/ServerProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/GuiHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/QuadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/ReflectionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RenderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RotationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/StateHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/TransformationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/RenderTrainPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/vehicle/RenderTestTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityTrainPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemModelTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/large_wheel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/normal_wheel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/small_wheel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/models/item/test_train_body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/db_ice_motorcart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MT-LittleTrains.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/MT-LittleTrains.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MT-LittleTrains.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MT-LittleTrains.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2018-06-03-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2018-06-03-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/SProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/SProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRailPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/block/BlockRailPowered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/audio/MovingSoundHorn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/audio/MovingSoundHornRiding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/audio/MovingSoundVehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/audio/MovingSoundVehicleRiding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/RenderVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/RenderTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/client/render/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/CustomDataSerializers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/CustomDataSerializers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EngineType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityColoredLandVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityColoredTrainPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityLandVehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/EntityTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityTestTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/entity/vehicle/EntityTestTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/enums/EnumWheelTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/enums/EnumWheelTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/ModSounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/items/ItemPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/PacketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/PacketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageAccelerating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageAccelerating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageHorn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/network/message/MessageTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/CProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/proxy/CProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -167,92 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModCrafting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModCrafting.java">
+      <file leaf-file-name="en_us.lang" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/crccm/lang/en_us.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="109" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="109" />
+            <state relative-caret-position="138">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModItems.java">
+      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModSounds.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/init/ModSounds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageAddAttachment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageExplodeCar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageExplodeCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageRemoveAttachment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageRemoveAttachment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageTurnCar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageUpdateProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageUpdateProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RenderUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RenderUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="117" selection-start-line="15" selection-start-column="117" selection-end-line="15" selection-end-column="117" />
+            <state relative-caret-position="138">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -346,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageTurnCar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageUpdateProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RenderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java" />
       </list>
     </option>
   </component>
@@ -419,42 +243,6 @@
               <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rccar" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rccar" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rccar" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rccar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT-LittleTrains" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -482,7 +270,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="crccm" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MT-LittleTrains" type="b2602c69:ProjectViewProjectNode" />
@@ -741,29 +529,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49839914" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49786553" weight="0.32894737" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50160086" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.3991228" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.4994664" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994664" weight="0.3991228" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" visible="true" weight="0.3991228" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,20 +567,6 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/init/MTBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/multiteam/mt_t_trains/MTTTrains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mt_t_trains/textures/models/wheel_s_n_l.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1088,14 +861,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/item/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1127,10 +893,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/network/message/MessageAddAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/util/RenderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="15" column="117" selection-start-line="15" selection-start-column="117" selection-end-line="15" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/crccm/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mrcrayfish/rccar/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
