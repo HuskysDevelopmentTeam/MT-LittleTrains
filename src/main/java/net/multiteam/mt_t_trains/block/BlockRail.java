@@ -15,7 +15,7 @@ public class BlockRail extends BlockRailBase {
     public static final PropertyEnum<EnumRailDirection> SHAPE = PropertyEnum.<BlockRailBase.EnumRailDirection>create("shape", BlockRailBase.EnumRailDirection.class);
 
     public BlockRail() {
-        super(false,"normal_rail");
+        super(false, "normal_rail");
         this.setDefaultState(this.blockState.getBaseState().withProperty(SHAPE, BlockRailBase.EnumRailDirection.NORTH_SOUTH));
     }
 

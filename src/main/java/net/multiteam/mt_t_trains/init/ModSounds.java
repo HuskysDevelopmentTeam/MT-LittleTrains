@@ -11,8 +11,7 @@ import net.multiteam.mt_t_trains.Reference;
 /**
  * Author: MrCrayfish
  */
-public class ModSounds
-{
+public class ModSounds {
     public static final SoundEvent HORN_MONO;
     public static final SoundEvent HORN_STEREO;
     public static final SoundEvent ATV_ENGINE_MONO;
@@ -23,8 +22,7 @@ public class ModSounds
     public static final SoundEvent ELECTRIC_ENGINE_STEREO;
     public static final SoundEvent BONK;
 
-    static
-    {
+    static {
         HORN_MONO = registerSound("vehicle:horn_mono");
         HORN_STEREO = registerSound("vehicle:horn_stereo");
         ATV_ENGINE_MONO = registerSound("vehicle:atv_engine_mono");
@@ -36,19 +34,16 @@ public class ModSounds
         BONK = registerSound("vehicle:bonk");
     }
 
-    private static SoundEvent registerSound(String soundNameIn)
-    {
+    private static SoundEvent registerSound(String soundNameIn) {
         ResourceLocation resource = new ResourceLocation(soundNameIn);
         SoundEvent sound = new SoundEvent(resource).setRegistryName(soundNameIn);
         return sound;
     }
 
     @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
-    public static class RegistrationHandler
-    {
+    public static class RegistrationHandler {
         @SubscribeEvent
-        public static void registerSounds(final RegistryEvent.Register<SoundEvent> event)
-        {
+        public static void registerSounds(final RegistryEvent.Register<SoundEvent> event) {
             IForgeRegistry<SoundEvent> registry = event.getRegistry();
             registry.register(HORN_MONO);
             registry.register(HORN_STEREO);

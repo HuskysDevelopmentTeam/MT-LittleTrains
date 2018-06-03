@@ -12,4 +12,9 @@ public class ItemPart extends ItemMod {
         this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
     }
 
+    public ItemPart(String id, String... variants) {
+        super(id, MOD_ID, variants);
+        this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+    }
+
 }

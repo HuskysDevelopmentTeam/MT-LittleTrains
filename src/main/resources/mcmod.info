@@ -1,16 +1,11 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "mt_t_trains",
+  "name": "MT: LittleTrains",
+  "description": "A minecraft mod focused on tiny, modell sized trains.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "authorList": ["HuskyTheArtist", "King_of_Creepers"],
+  "credits": "Thanks to King_of_Creepers for the art and HuskyTheArtist for the coding"
 }
 ]
