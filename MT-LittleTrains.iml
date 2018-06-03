@@ -9,7 +9,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/eclipse" />
       <excludeFolder url="file://$MODULE_DIR$/run" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/com/mrcrayfish/rccar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

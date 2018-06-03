@@ -1,9 +1,0 @@
-{
-	"connect": { 
-		"category": "ambient", 
-		"sounds": [{ 
-			"name": "crccm:connect", 
-			"stream": false 
-		}]
-	}
-}

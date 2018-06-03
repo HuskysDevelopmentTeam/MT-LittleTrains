@@ -14,8 +14,11 @@ import java.util.List;
 
 public class ItemEngine extends ItemPart {
 
-    public ItemEngine(String id) {
-        super(id, EngineType.values().toString());
+    private EngineType type;
+
+    public ItemEngine(EngineType type) {
+        super(type.getRegistryName());
+        this.type = type;
         this.setMaxDamage(0);
         this.setHasSubtypes(true);
     }
@@ -23,7 +26,6 @@ public class ItemEngine extends ItemPart {
     @Override
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-        EngineType type = EngineType.getType(stack.getMetadata());
         tooltip.add(type.getTierColor() + TextFormatting.BOLD.toString() + type.getTierName() + " Tier");
         if (GuiScreen.isShiftKeyDown()) {
             tooltip.add(TextFormatting.YELLOW + "Fuel Consumption: " + TextFormatting.RESET + type.getFuelConsumption() + "pt");

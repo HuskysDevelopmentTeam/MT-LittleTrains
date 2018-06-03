@@ -5,17 +5,22 @@ import net.minecraft.util.text.TextFormatting;
 
 public enum EngineType {
 
-    ELECTRIC(0F, "Electric", TextFormatting.DARK_GRAY),
-    DIESEL(0F, "Diesel", TextFormatting.GRAY);
+    ELECTRIC(0, 0F, "Electric", "electric_engine", TextFormatting.DARK_GRAY),
+    DIESEL(1, 0F, "Diesel", "diesel_engine", TextFormatting.GRAY),
+    STEAM(2, 0F, "Steam", "steam_boiler", TextFormatting.WHITE),
+    PISTON(3, 0F, "Piston", "piston_engine", TextFormatting.GOLD);
 
+    int id;
     float fuelConsumption;
 
-    String tierName;
+    String tierName, registryName;
     TextFormatting tierColor;
 
-    EngineType(float fuelConsumption, String tierName, TextFormatting tierColor) {
+    EngineType(int id, float fuelConsumption, String tierName, String registryName, TextFormatting tierColor) {
+        this.id = id;
         this.fuelConsumption = fuelConsumption;
         this.tierName = tierName;
+        this.registryName = registryName;
         this.tierColor = tierColor;
     }
 
@@ -36,6 +41,14 @@ public enum EngineType {
 
     public String getTierName() {
         return tierName;
+    }
+
+    public String getRegistryName() {
+        return registryName;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public TextFormatting getTierColor() {

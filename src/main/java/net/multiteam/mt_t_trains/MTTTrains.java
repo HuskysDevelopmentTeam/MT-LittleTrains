@@ -11,7 +11,10 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.multiteam.mt_t_trains.entity.CustomDataSerializers;
 import net.multiteam.mt_t_trains.entity.EntityTrain;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityTestTrain;
+import net.multiteam.mt_t_trains.entity.vehicle.EntityC62SteamLocomotive;
+import net.multiteam.mt_t_trains.entity.vehicle.EntityC62SteamLocomotiveTender;
+import net.multiteam.mt_t_trains.entity.vehicle.EntityDBIceMotorcart;
+import net.multiteam.mt_t_trains.entity.vehicle.EntityRbhTE22;
 import net.multiteam.mt_t_trains.init.MTItems;
 import net.multiteam.mt_t_trains.network.PacketHandler;
 import net.multiteam.mt_t_trains.proxy.SProxy;
@@ -22,7 +25,7 @@ public class MTTTrains {
     public static final CreativeTabs MT_T_TRAINS_CREATIVE_TAB = new CreativeTabs("mt_t_trains") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(MTItems.TRAIN_WHEEL[1]);
+            return new ItemStack(MTItems.DB_ICE_MOTORCART_BODY);
         }
     };
 
@@ -55,7 +58,10 @@ public class MTTTrains {
     }
 
     private void registerTrainParts() {
-        registerTrainPart("test_wagon", EntityTestTrain.class);
+        registerTrainPart("db_ice_motorcart", EntityDBIceMotorcart.class);
+        registerTrainPart("rhb_te_2_2", EntityRbhTE22.class);
+        registerTrainPart("C62_steam_locomotive", EntityC62SteamLocomotive.class);
+        registerTrainPart("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender.class);
     }
 
     private void registerTrainPart(String id, Class<? extends EntityTrain> clazz) {

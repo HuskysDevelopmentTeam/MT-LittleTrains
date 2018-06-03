@@ -172,6 +172,11 @@
     <dictionary name="user">
       <words>
         <w>crccm</w>
+        <w>dbrown</w>
+        <w>keybind</w>
+        <w>mcversion</w>
+        <w>minecraft</w>
+        <w>motorcart</w>
       </words>
     </dictionary>
   </component>
