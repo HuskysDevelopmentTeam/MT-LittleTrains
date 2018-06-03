@@ -2,10 +2,10 @@
 {
   "modid": "mt_t_trains",
   "name": "MT: LittleTrains",
-  "description": "A minecraft mod focused on tiny, modell sized trains.",
+  "description": "A Minecraft mod focused on tiny, model sized trains.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "authorList": ["HuskyTheArtist", "King_of_Creepers"],
-  "credits": "Thanks to King_of_Creepers for the art and HuskyTheArtist for the coding"
+  "credits": "Mod by MultiTeam -Code by HuskyTheArtist and Dbrown55 -Resources by King_of_Creepers"
 }
 ]

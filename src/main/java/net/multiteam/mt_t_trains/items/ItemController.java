@@ -22,14 +22,14 @@ public class ItemController extends ItemMod {
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
         if (stack.hasTagCompound()) {
-            if (stack.getTagCompound().hasKey("linked_car")) {
+            if (stack.getTagCompound().hasKey("linked_control_box")) {
                 tooltip.add(TextFormatting.GOLD.toString() + TextFormatting.BOLD.toString() + "Linked");
-                tooltip.add(stack.getTagCompound().getString("linked_car"));
+                tooltip.add(stack.getTagCompound().getString("linked_control_box"));
                 return;
             }
         }
         tooltip.add(TextFormatting.RED.toString() + TextFormatting.BOLD.toString() + "Unlinked");
-        tooltip.add("Right click a car with this controller to link them together");
+        tooltip.add("Right click a control box with this controller to link them together");
     }
 
 }
