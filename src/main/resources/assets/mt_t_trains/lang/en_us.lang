@@ -1,0 +1,34 @@
+#GUI
+itemGroup.mt_t_trains=MT: LittleTrains
+
+#TRAINS-STEAM
+item.C62_steam_locomotive_body.name=C62 Steam locomotive (body)
+item.C62_steam_locomotive.name=C62 Steam locomotive
+item.C62_steam_locomotive_tender.name=C62 Steam locomotive Tender
+item.C62_steam_locomotive_tender_body.name=C62 Steam locomotive Tender (body)
+
+#TRAINS-DIESEL
+
+#TRAINS-ELECTRIC
+item.db_ice_motorcart_electric_body.name=DB ICE Motorcart (body)
+item.db_ice_motorcart_electric.name=DB ICE Motorcart
+item.rhb_te_2_2_body.name=RHB TE 2-2 (body)
+item.rhb_te_2_2.name=RHB TE 2-2
+
+#TRACKS
+tile.straight_track.name=Straight Track
+tile.buffer_track.name=Buffer Track
+tile.power_track.name=Power Track
+
+#BLOCKS
+tile.modeller_table.name=Modeller Table
+tile.controll_box.name=Controll Box
+
+#ITEMS-PARTS
+item.small_wheel.name=Small train wheel
+item.normal_wheel.name=Normal train wheel
+item.normal_wheel.name=Big train wheel
+
+
+#ITEMS-TOOLS
+item.controller.name=Train Controller

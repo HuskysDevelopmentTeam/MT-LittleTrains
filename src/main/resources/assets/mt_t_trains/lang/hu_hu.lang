@@ -1,0 +1,34 @@
+#GUI
+itemGroup.mt_t_trains=MT: LittleTrains
+
+#TRAINS-STEAM
+item.C62_steam_locomotive_body.name=C62 Gözmozdony (test)
+item.C62_steam_locomotive.name=C62 Gözmozdony
+item.C62_steam_locomotive_tender.name=C62 Gözmozdony Szerkocsi
+item.C62_steam_locomotive_tender_body.name=C62 Gözmozdony Szerkocsi (test)
+
+#TRAINS-DIESEL
+
+#TRAINS-ELECTRIC
+item.db_ice_motorcart_electric_body.name=DB ICE Motrovonat (test)
+item.db_ice_motorcart_electric.name=DB ICE Motrovonat
+item.rhb_te_2_2_body.name=RHB TE 2-2 (test)
+item.rhb_te_2_2.name=RHB TE 2-2
+
+#TRACKS
+tile.straight_track.name=Egyenes sín
+tile.buffer_track.name=Ütközö sín
+tile.power_track.name=Energia ellátó sín
+
+#BLOCKS
+tile.modeller_table.name=Modellező asztal
+tile.controll_box.name=Vezérlő doboz
+
+#ITEMS-PARTS
+item.small_wheel.name=Kis vonatkerék
+item.normal_wheel.name=Normál vonatkerék
+item.normal_wheel.name=Nagy vonatkerék
+
+
+#ITEMS-TOOLS
+item.controller.name=Vonat vezérlő
