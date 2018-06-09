@@ -17,17 +17,38 @@ item.rhb_te_2_2.name=RHB TE 2-2
 
 #TRACKS
 tile.straight_track.name=Straight Track
+tile.straight_track_ballasted.name=Straight Track on ballast
+tile.straight_track_garss_plated.name=Straight Track on grass plate
 tile.buffer_track.name=Buffer Track
+tile.buffer_track_ballasted.name=Buffer Track on ballast
+tile.buffer_track_grass_plated.name=Buffer Track on grass plate
 tile.power_track.name=Power Track
+tile.power_track_ballasted.name=Power Track on ballast
+tile.power_track_grass_plated.name=Power Track on grass plate
+tile.turn_track_90_deg.name=Turn Track (90 degree)
+tile.turn_track_90_deg_ballasted.name=Turn Track on ballast (90 degree)
+tile.turn_track_90_deg_grass_plated.name=Turn Track on grass plate (90 degree)
+
 
 #BLOCKS
 tile.modeller_table.name=Modeller Table
-tile.controll_box.name=Controll Box
+tile.control_box.name=Controll Box
+tile.tin_ore.name=Tin ore
+tile.tin_block.name=Tin block
+tile.copper_ore.name=Copper ore
+tile.copper_block.name=Copper block
+tile.cobble_andesite.name=Cobble Andesite
+tile.cobble_hardened_clay.name=Cobble Hardened Clay
+tile.ballast_block.name=Ballast block
+
 
 #ITEMS-PARTS
 item.small_wheel.name=Small train wheel
 item.normal_wheel.name=Normal train wheel
-item.normal_wheel.name=Big train wheel
+item.big_wheel.name=Big train wheel
+item.simple_electric_engine.name=Electric engine
+item.electric_steam_boiler.name=Electric engine for steamys
+item.electric_diesel_engine.name=Electric engine for diesels
 
 
 #ITEMS-TOOLS
