@@ -14,12 +14,10 @@ public class EntityRbhTE22 extends EntityTrainPart {
     }
 
     @Override
-    public void entityInit()
-    {
+    public void entityInit() {
         super.entityInit();
 
-        if(world.isRemote)
-        {
+        if (world.isRemote) {
             body = new ItemStack(MTItems.RBH_TE_2_2_BODY);
             wheel = new ItemStack(MTItems.TRAIN_WHEEL[1]);
             engine = new ItemStack(MTItems.ENGINE[0]);

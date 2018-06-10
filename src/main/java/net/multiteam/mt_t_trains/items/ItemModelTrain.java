@@ -27,7 +27,7 @@ public class ItemModelTrain extends ItemMod {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
 
-        if(worldIn.getBlockState(new BlockPos(playerIn.posX, playerIn.posY, playerIn.posZ)) == MTBlocks.STRAIGHT_TRACK.getDefaultState()) {
+        if (worldIn.getBlockState(new BlockPos(playerIn.posX, playerIn.posY, playerIn.posZ)) == MTBlocks.STRAIGHT_TRACK.getDefaultState()) {
             try {
                 worldIn.spawnEntity(entity.newInstance());
             } catch (InstantiationException | IllegalAccessException e) {

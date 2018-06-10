@@ -14,12 +14,10 @@ public class EntityC62SteamLocomotive extends EntityTrainPart {
     }
 
     @Override
-    public void entityInit()
-    {
+    public void entityInit() {
         super.entityInit();
 
-        if(world.isRemote)
-        {
+        if (world.isRemote) {
             body = new ItemStack(MTItems.C62_STEAM_LOCOMOTIVE_BODY);
             wheel = new ItemStack(MTItems.TRAIN_WHEEL[1]);
             engine = new ItemStack(MTItems.ENGINE[2]);

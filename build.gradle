@@ -9,9 +9,9 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "0.0.1"
+version = "DEV2_0.0.0"
 group = "net.multiteam.mt_t_trains"
-archivesBaseName = "mt_t_trains"
+archivesBaseName = "MT_LittleTrains_"
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {

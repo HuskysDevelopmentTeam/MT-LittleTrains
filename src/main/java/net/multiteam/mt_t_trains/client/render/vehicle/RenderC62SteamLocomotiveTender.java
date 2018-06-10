@@ -17,33 +17,30 @@ public class RenderC62SteamLocomotiveTender extends RenderTrainPart<EntityC62Ste
 
     public RenderC62SteamLocomotiveTender(RenderManager renderManager) {
         super(renderManager);
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.FRONT, 0.5F,0.38f,6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.FRONT, 0.5F,0.38f,6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.REAR, 0.5F,0.38f,-6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.REAR, 0.5F,0.38f,-6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_FRONT, 0.5F,0.38f,4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_FRONT, 0.5F,0.38f,4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_REAR, 0.5F,0.38f,-4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_REAR, 0.5F,0.38f,-4F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.FRONT, 0.5F, 0.38f, 6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.FRONT, 0.5F, 0.38f, 6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.REAR, 0.5F, 0.38f, -6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.REAR, 0.5F, 0.38f, -6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_FRONT, 0.5F, 0.38f, 4F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_FRONT, 0.5F, 0.38f, 4F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_REAR, 0.5F, 0.38f, -4F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_REAR, 0.5F, 0.38f, -4F, 0.95F));
     }
 
     @Nullable
     @Override
-    protected ResourceLocation getEntityTexture(EntityC62SteamLocomotiveTender entity)
-    {
+    protected ResourceLocation getEntityTexture(EntityC62SteamLocomotiveTender entity) {
         return null;
     }
 
     @Override
-    public void doRender(EntityC62SteamLocomotiveTender entity, double x, double y, double z, float currentYaw, float partialTicks)
-    {
+    public void doRender(EntityC62SteamLocomotiveTender entity, double x, double y, double z, float currentYaw, float partialTicks) {
         RenderHelper.enableStandardItemLighting();
 
         float additionalYaw = entity.prevAdditionalYaw + (entity.additionalYaw - entity.prevAdditionalYaw) * partialTicks;
 
         EntityLivingBase entityLivingBase = (EntityLivingBase) entity.getControllingPassenger();
-        if(entityLivingBase != null)
-        {
+        if (entityLivingBase != null) {
             entityLivingBase.renderYawOffset = currentYaw - additionalYaw;
             entityLivingBase.prevRenderYawOffset = currentYaw - additionalYaw;
         }

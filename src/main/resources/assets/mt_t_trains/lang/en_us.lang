@@ -50,6 +50,5 @@ item.simple_electric_engine.name=Electric engine
 item.electric_steam_boiler.name=Electric engine for steamys
 item.electric_diesel_engine.name=Electric engine for diesels
 
-
 #ITEMS-TOOLS
 item.controller.name=Train Controller

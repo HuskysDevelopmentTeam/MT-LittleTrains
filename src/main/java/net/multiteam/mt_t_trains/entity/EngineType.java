@@ -5,10 +5,9 @@ import net.minecraft.util.text.TextFormatting;
 
 public enum EngineType {
 
-    ELECTRIC(0, 0F, "Electric", "electric_engine", TextFormatting.DARK_GRAY),
-    DIESEL(1, 0F, "Diesel", "diesel_engine", TextFormatting.GRAY),
-    STEAM(2, 0F, "Steam", "steam_boiler", TextFormatting.WHITE),
-    PISTON(3, 0F, "Piston", "piston_engine", TextFormatting.GOLD);
+    ELECTRIC(0, 0F, "Simple Electric", "simple_electric_engine", TextFormatting.DARK_GRAY),
+    DIESEL(1, 0F, "Electric Diesel", "electric_diesel_engine", TextFormatting.GRAY),
+    STEAM(2, 0F, "Electric Steam", "electric_steam_boiler", TextFormatting.WHITE);
 
     int id;
     float fuelConsumption;

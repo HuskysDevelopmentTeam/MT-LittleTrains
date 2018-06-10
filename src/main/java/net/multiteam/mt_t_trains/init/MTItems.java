@@ -25,7 +25,7 @@ public class MTItems {
     public static final Item TRAIN_CONTROLLER;
 
     static {
-        for(EnumWheelTypes wheelTypes : EnumWheelTypes.values()) {
+        for (EnumWheelTypes wheelTypes : EnumWheelTypes.values()) {
             TRAIN_WHEEL[wheelTypes.getId()] = new ItemPart(wheelTypes.getName() + "_wheel");
         }
         DB_ICE_MOTORCART_BODY = new ItemColoredPart("db_ice_motorcart_electric_body");
@@ -37,7 +37,7 @@ public class MTItems {
         C62_STEAM_LOCOMOTIVE = new ItemModelTrain("C62_steam_locomotive", EntityC62SteamLocomotive.class);
         C62_STEAM_LOCOMOTIVE_TENDER = new ItemModelTrain("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender.class);
         TRAIN_CONTROLLER = new ItemController();
-        for(EngineType type : EngineType.values()) {
+        for (EngineType type : EngineType.values()) {
             ENGINE[type.getId()] = new ItemEngine(type);
         }
     }
