@@ -9,18 +9,15 @@ import java.util.List;
 /**
  * Author: MrCrayfish
  */
-public class RenderTrainPart<T extends EntityTrainPart> extends RenderTrain<T>
-{
+public class RenderTrainPart<T extends EntityTrainPart> extends RenderTrain<T> {
     protected List<Wheel> wheels = new ArrayList<>();
 
-    protected RenderTrainPart(RenderManager renderManager)
-    {
+    protected RenderTrainPart(RenderManager renderManager) {
         super(renderManager);
     }
 
     @Override
-    public void doRender(T entity, double x, double y, double z, float entityYaw, float partialTicks)
-    {
+    public void doRender(T entity, double x, double y, double z, float entityYaw, float partialTicks) {
         wheels.forEach(wheel -> wheel.render(entity, partialTicks));
         super.doRender(entity, x, y, z, entityYaw, partialTicks);
     }

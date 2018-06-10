@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "mt_t_trains:models/C62_steam_locomotive",
-		"particle": "mt_t_trains:models/C62_steam_locomotive"
+		"0": "mt_t_trains:models/c62_steam_locomotive",
+		"particle": "mt_t_trains:models/c62_steam_locomotive"
 	},
 	"elements": [
 		{

@@ -17,33 +17,26 @@ public class RenderRbhTE22 extends RenderTrainPart<EntityRbhTE22> {
 
     public RenderRbhTE22(RenderManager renderManager) {
         super(renderManager);
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.FRONT, 0.5F,0.38f,6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.FRONT, 0.5F,0.38f,6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.REAR, 0.5F,0.38f,-6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.REAR, 0.5F,0.38f,-6.5F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_FRONT, 0.5F,0.38f,4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_FRONT, 0.5F,0.38f,4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.SECOND_REAR, 0.5F,0.38f,-4F, 0.95F));
-        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.SECOND_REAR, 0.5F,0.38f,-4F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.FRONT, 0.5F, 0.38f, 6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.FRONT, 0.5F, 0.38f, 6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.LEFT, Wheel.Position.REAR, 0.5F, 0.38f, -6.5F, 0.95F));
+        wheels.add(new Wheel(Wheel.Side.RIGHT, Wheel.Position.REAR, 0.5F, 0.38f, -6.5F, 0.95F));
     }
 
     @Nullable
     @Override
-    protected ResourceLocation getEntityTexture(EntityRbhTE22 entity)
-    {
+    protected ResourceLocation getEntityTexture(EntityRbhTE22 entity) {
         return null;
     }
 
     @Override
-    public void doRender(EntityRbhTE22 entity, double x, double y, double z, float currentYaw, float partialTicks)
-    {
+    public void doRender(EntityRbhTE22 entity, double x, double y, double z, float currentYaw, float partialTicks) {
         RenderHelper.enableStandardItemLighting();
 
         float additionalYaw = entity.prevAdditionalYaw + (entity.additionalYaw - entity.prevAdditionalYaw) * partialTicks;
 
         EntityLivingBase entityLivingBase = (EntityLivingBase) entity.getControllingPassenger();
-        if(entityLivingBase != null)
-        {
+        if (entityLivingBase != null) {
             entityLivingBase.renderYawOffset = currentYaw - additionalYaw;
             entityLivingBase.prevRenderYawOffset = currentYaw - additionalYaw;
         }
