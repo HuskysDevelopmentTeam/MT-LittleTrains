@@ -23,7 +23,7 @@ import net.minecraftforge.common.util.Constants;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.multiteam.mt_t_trains.init.MTItems;
-import net.multiteam.mt_t_trains.init.ModSounds;
+import net.multiteam.mt_t_trains.init.MTSounds;
 import net.multiteam.mt_t_trains.network.PacketHandler;
 import net.multiteam.mt_t_trains.network.message.MessageAccelerating;
 import net.multiteam.mt_t_trains.network.message.MessageTurn;
@@ -84,7 +84,7 @@ public abstract class EntityTrain extends Entity {
 
     //TODO ability to change with nbt
     public SoundEvent getHornSound() {
-        return ModSounds.HORN_MONO;
+        return MTSounds.HORN_MONO;
     }
 
     public float getMinEnginePitch() {

@@ -45,10 +45,10 @@ tile.ballast_block.name=Ballast blokk
 #ITEMS-PARTS
 item.small_wheel.name=Lite Tog Hjul
 item.normal_wheel.name=Normal Tog Hjul
-item.big_wheel.name=Strort Tog Hjul
+item.big_wheel.name=Stort Tog Hjul
 item.simple_electric_engine.name=Elektrisk Motor
 item.electric_steam_boiler.name=Elektrisk Motor For Damp
-item.electric_diesel_engine.name=Elektrisk Disel
+item.electric_diesel_engine.name=Elektrisk Motor For Disel
 
 #ITEMS-TOOLS
-item.controller.name=Tog Kontrolør
+item.controller.name=Tog Kontroller

@@ -7,6 +7,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonWriter;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.util.EnumFacing;
+import net.multiteam.mt_t_trains.enums.TrackVariants;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.CharEncoding;
 import org.apache.commons.lang3.StringEscapeUtils;
@@ -25,7 +26,9 @@ public class JsonGenerator {
     private static String modid = "mt_t_trains";
 
     public static void main(String[] args) {
-        genBlock(modid, "control_box", "control_box");
+        for(TrackVariants trackVariants : TrackVariants.values()) {
+            genLangFile(modid, String.format("track_%s", trackVariants.getName()), String.format("track_%s", trackVariants.getName()), "tracks");
+        }
     }
 
     public static void genBlock(String modId, String blockName, String textureName) {

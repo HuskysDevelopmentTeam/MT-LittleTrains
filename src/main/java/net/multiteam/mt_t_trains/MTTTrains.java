@@ -11,13 +11,11 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.multiteam.mt_t_trains.entity.CustomDataSerializers;
 import net.multiteam.mt_t_trains.entity.EntityTrain;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityC62SteamLocomotive;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityC62SteamLocomotiveTender;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityDBIceMotorcart;
-import net.multiteam.mt_t_trains.entity.vehicle.EntityRbhTE22;
+import net.multiteam.mt_t_trains.entity.vehicle.*;
 import net.multiteam.mt_t_trains.init.MTItems;
 import net.multiteam.mt_t_trains.network.PacketHandler;
 import net.multiteam.mt_t_trains.proxy.SProxy;
+import org.apache.logging.log4j.Logger;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class MTTTrains {
@@ -37,8 +35,11 @@ public class MTTTrains {
 
     public int nextEntityId;
 
+    public static Logger logger;
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+        logger = event.getModLog();
         PacketHandler.init();
         CustomDataSerializers.register();
         proxy.preInit(event);
@@ -46,9 +47,7 @@ public class MTTTrains {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
         registerTrainParts();
-
         proxy.init(event);
     }
 
@@ -62,6 +61,8 @@ public class MTTTrains {
         registerTrainPart("rhb_te_2_2", EntityRbhTE22.class);
         registerTrainPart("C62_steam_locomotive", EntityC62SteamLocomotive.class);
         registerTrainPart("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender.class);
+        registerTrainPart("SantaFe_8081", EntityČD810.class);
+        registerTrainPart("ČD_810", EntitySantaFe8081.class);
     }
 
     private void registerTrainPart(String id, Class<? extends EntityTrain> clazz) {

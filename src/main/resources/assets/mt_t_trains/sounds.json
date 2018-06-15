@@ -1,0 +1,20 @@
+{
+  "electric_startup": {
+    "sounds": [ {"name": "mt_t_trains:electric_startup"}]
+  },
+  "electric_moving": {
+    "sounds": [ {"name": "mt_t_trains:electric_moving"}]
+  },
+  "diesel_idle": {
+    "sounds": [ {"name": "mt_t_trains:diesel_idle"}]
+  },
+  "diesel_startup": {
+    "sounds": [ {"name": "mt_t_trains:diesel_startup"}]
+  },
+  "diesel_start_moving": {
+    "sounds": [ {"name": "mt_t_trains:diesel_start_moving"}]
+  },
+  "diesel_moving": {
+    "sounds": [ {"name": "mt_t_trains:diesel_moving"}]
+  }
+}

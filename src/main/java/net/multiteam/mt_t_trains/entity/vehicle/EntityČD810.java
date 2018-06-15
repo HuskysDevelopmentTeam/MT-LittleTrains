@@ -7,9 +7,9 @@ import net.multiteam.mt_t_trains.entity.EntityTrainPart;
 import net.multiteam.mt_t_trains.init.MTItems;
 import net.multiteam.mt_t_trains.init.MTSounds;
 
-public class EntityRbhTE22 extends EntityTrainPart {
+public class EntityČD810 extends EntityTrainPart {
 
-    public EntityRbhTE22(World worldIn) {
+    public EntityČD810(World worldIn) {
         super(worldIn);
     }
 
@@ -18,15 +18,15 @@ public class EntityRbhTE22 extends EntityTrainPart {
         super.entityInit();
 
         if (world.isRemote) {
-            body = new ItemStack(MTItems.RBH_TE_2_2_BODY);
+            body = new ItemStack(MTItems.ČD_810_BODY);
             wheel = new ItemStack(MTItems.TRAIN_WHEEL[1]);
-            engine = new ItemStack(MTItems.ENGINE[0]);
+            engine = new ItemStack(MTItems.ENGINE[1]);
         }
     }
 
     @Override
     public SoundEvent getMovingSound() {
-        return MTSounds.ELECTRIC_MOVING;
+        return MTSounds.DIESEL_MOVING;
     }
 
 }

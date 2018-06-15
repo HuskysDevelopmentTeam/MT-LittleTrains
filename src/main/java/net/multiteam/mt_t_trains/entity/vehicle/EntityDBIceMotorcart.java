@@ -1,11 +1,11 @@
 package net.multiteam.mt_t_trains.entity.vehicle;
 
-import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import net.multiteam.mt_t_trains.entity.EntityTrainPart;
 import net.multiteam.mt_t_trains.init.MTItems;
+import net.multiteam.mt_t_trains.init.MTSounds;
 
 public class EntityDBIceMotorcart extends EntityTrainPart {
 
@@ -26,7 +26,7 @@ public class EntityDBIceMotorcart extends EntityTrainPart {
 
     @Override
     public SoundEvent getMovingSound() {
-        return SoundEvents.BLOCK_ANVIL_BREAK;
+        return MTSounds.ELECTRIC_MOVING;
     }
 
 }

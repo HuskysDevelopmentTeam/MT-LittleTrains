@@ -9,31 +9,21 @@ import net.multiteam.mt_t_trains.block.BlockBase;
 import net.multiteam.mt_t_trains.block.BlockControlBox;
 import net.multiteam.mt_t_trains.block.BlockModellerTable;
 import net.multiteam.mt_t_trains.block.BlockRailBase;
+import net.multiteam.mt_t_trains.enums.TrackVariants;
 
 import static net.multiteam.mt_t_trains.Reference.MOD_ID;
 
 @Mod.EventBusSubscriber(modid = MOD_ID)
 public class MTBlocks {
 
-    public static final Block STRAIGHT_TRACK, STRAIGHT_TRACK_BALLASTED, STRAIGHT_TRACK_GRASS_PLATED,
-            POWER_TRACK, POWER_TRACK_BALLASTED, POWER_TRACK_GRASS_PLATED, BUFFER_TRACK, BUFFER_TRACK_BALLASTED,
-            BUFFER_TRACK_GRASS_PLATED, TURN_TRACK_90_DEG, TURN_TRACK_90_DEG_BALLASTED, TURN_TRACK_90_DEG_GRASS_PLATED;
+    public static final Block[] TRACKS = new Block[15];
     public static final Block CONTROL_BOX, MODELLER_TABLE;
     public static final Block BALLAST_BLOCK, COBBLE_ANDESITE, COBBLE_HARDENED_CLAY, COPPER_BLOCK, COPPER_ORE, TIN_BLOCK, TIN_ORE;
 
     static {
-        STRAIGHT_TRACK = new BlockRailBase("straight_track");
-        STRAIGHT_TRACK_BALLASTED = new BlockRailBase("straight_track_ballasted");
-        STRAIGHT_TRACK_GRASS_PLATED = new BlockRailBase("straight_track_grass_plated");
-        POWER_TRACK = new BlockRailBase("power_track");
-        POWER_TRACK_BALLASTED = new BlockRailBase("power_track_ballasted");
-        POWER_TRACK_GRASS_PLATED = new BlockRailBase("power_track_grass_plated");
-        BUFFER_TRACK = new BlockRailBase("buffer_track");
-        BUFFER_TRACK_BALLASTED = new BlockRailBase("buffer_track_ballasted");
-        BUFFER_TRACK_GRASS_PLATED = new BlockRailBase("buffer_track_grass_plated");
-        TURN_TRACK_90_DEG = new BlockRailBase("turn_track_90_deg");
-        TURN_TRACK_90_DEG_BALLASTED = new BlockRailBase("turn_track_90_deg_ballasted");
-        TURN_TRACK_90_DEG_GRASS_PLATED = new BlockRailBase("turn_track_90_deg_grass_plated");
+        for(TrackVariants trackVariants : TrackVariants.values()) {
+            TRACKS[trackVariants.getId()] = new BlockRailBase(String.format("track_%s", trackVariants.getName()));
+        }
 
         CONTROL_BOX = new BlockControlBox();
         MODELLER_TABLE = new BlockModellerTable();

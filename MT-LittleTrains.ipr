@@ -27,6 +27,7 @@
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
+      <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" />
     </profile>
     <version value="1.0" />
   </component>
@@ -183,6 +184,7 @@
         <w>minecraft</w>
         <w>motorcart</w>
         <w>multiteam</w>
+        <w>santafe</w>
       </words>
     </dictionary>
   </component>
