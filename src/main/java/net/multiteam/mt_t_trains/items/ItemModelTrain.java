@@ -25,7 +25,7 @@ public class ItemModelTrain<E extends EntityTrain> extends ItemMod {
     public ItemModelTrain(String name, Function<World, E> something) {
         super(name, MOD_ID);
         entityCreator = something;
-        setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        setCreativeTab(MTTTrains.TRAINS_CREATIVE_TAB);
     }
 
     @Override

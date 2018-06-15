@@ -16,7 +16,7 @@ public class ItemController extends ItemMod {
 
     public ItemController() {
         super("controller", MOD_ID);
-        this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        this.setCreativeTab(MTTTrains.MAIN_CREATIVE_TAB);
     }
 
     @Override

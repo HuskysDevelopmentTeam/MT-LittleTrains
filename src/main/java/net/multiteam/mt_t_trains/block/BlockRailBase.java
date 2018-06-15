@@ -24,7 +24,7 @@ public class BlockRailBase extends BlockFacing {
 
     public BlockRailBase(String name) {
         super(Material.WOOD, MOD_ID, name);
-        setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        setCreativeTab(MTTTrains.TERRAIN_CREATIVE_TAB);
     }
 
     /**

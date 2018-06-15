@@ -1,18 +1,24 @@
 #GUI
-itemGroup.mt_t_trains=MT: LittleTrains
+itemGroup.little_trains_main=MT: LittleTrains Main
+itemGroup.little_trains_items=MT: LittleTrains Items
+itemGroup.little_trains_terrain=MT: LittleTrains Terrain
 
 #TRAINS-STEAM
-item.C62_steam_locomotive_body.name=C62 Steam locomotive (body)
+item.C62_steam_locomotive_body.name=C62 Steam locomotive (Body)
 item.C62_steam_locomotive.name=C62 Steam locomotive
 item.C62_steam_locomotive_tender.name=C62 Steam locomotive Tender
-item.C62_steam_locomotive_tender_body.name=C62 Steam locomotive Tender (body)
+item.C62_steam_locomotive_tender_body.name=C62 Steam locomotive Tender (Body)
 
 #TRAINS-DIESEL
+item.ČD_810_body.name=ČD_810 (Body)
+item.ČD_810.name=ČD_810
+item.santafe_8081_body.name=SantaFe_8081 (Body)
+item.santafe_8081.name=SantaFe_8081
 
 #TRAINS-ELECTRIC
-item.db_ice_motorcart_electric_body.name=DB ICE Motorcart (body)
+item.db_ice_motorcart_electric_body.name=DB ICE Motorcart (Body)
 item.db_ice_motorcart_electric.name=DB ICE Motorcart
-item.rhb_te_2_2_body.name=RHB TE 2-2 (body)
+item.rhb_te_2_2_body.name=RHB TE 2-2 (Body)
 item.rhb_te_2_2.name=RHB TE 2-2
 
 #TRACKS
@@ -34,15 +40,14 @@ tile.track_x_crossing_grass_plated.name=Track X Crossing Grass Plated
 
 #BLOCKS
 tile.modeller_table.name=Modeller Table
-tile.control_box.name=Controll Box
-tile.tin_ore.name=Tin ore
-tile.tin_block.name=Tin block
-tile.copper_ore.name=Copper ore
-tile.copper_block.name=Copper block
+tile.control_box.name=Control Box
+tile.tin_ore.name=Tin Ore
+tile.tin_block.name=Tin Block
+tile.copper_ore.name=Copper Ore
+tile.copper_block.name=Copper Block
 tile.cobble_andesite.name=Cobble Andesite
 tile.cobble_hardened_clay.name=Cobble Hardened Clay
-tile.ballast_block.name=Ballast block
-
+tile.ballast_block.name=Ballast Block
 
 #ITEMS-PARTS
 item.small_wheel.name=Small Train Wheel

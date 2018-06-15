@@ -13,6 +13,9 @@ import static net.multiteam.mt_t_trains.Reference.MOD_ID;
  * Author: MrCrayfish
  */
 public class MTSounds {
+
+    public static final SoundEvent HORN_MONO;
+    public static final SoundEvent HORN_STEREO;
     public static final SoundEvent ELECTRIC_STARTUP;
     public static final SoundEvent ELECTRIC_MOVING;
     public static final SoundEvent DIESEL_IDLE;
@@ -21,6 +24,8 @@ public class MTSounds {
     public static final SoundEvent DIESEL_MOVING;
 
     static {
+        HORN_MONO = registerSound("horn_mono");
+        HORN_STEREO = registerSound("horn_stereo");
         ELECTRIC_STARTUP = registerSound("electric_startup");
         ELECTRIC_MOVING = registerSound("electric_moving");
         DIESEL_IDLE = registerSound("diesel_idle");

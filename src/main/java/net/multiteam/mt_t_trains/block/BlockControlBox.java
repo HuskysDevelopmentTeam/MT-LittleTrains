@@ -16,7 +16,7 @@ public class BlockControlBox extends BlockFacing {
 
     public BlockControlBox() {
         super(Material.IRON , MOD_ID, "control_box");
-        setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        setCreativeTab(MTTTrains.MAIN_CREATIVE_TAB);
     }
 
     @Override

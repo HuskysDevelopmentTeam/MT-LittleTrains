@@ -9,7 +9,7 @@ public class ItemColoredPart extends ItemMod {
 
     public ItemColoredPart(String id) {
         super(id, MOD_ID);
-        this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        this.setCreativeTab(MTTTrains.TRAINS_CREATIVE_TAB);
     }
 
 }

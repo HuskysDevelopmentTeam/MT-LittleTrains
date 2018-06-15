@@ -7,6 +7,7 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.multiteam.mt_t_trains.MTTTrains;
 import net.multiteam.mt_t_trains.entity.EngineType;
 
 import javax.annotation.Nullable;
@@ -19,8 +20,7 @@ public class ItemEngine extends ItemPart {
     public ItemEngine(EngineType type) {
         super(type.getRegistryName());
         this.type = type;
-        this.setMaxDamage(0);
-        this.setHasSubtypes(true);
+        setCreativeTab(MTTTrains.ITEMS_CREATIVE_TAB);
     }
 
     @Override

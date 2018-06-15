@@ -14,7 +14,7 @@ public class BlockBase extends BlockMod {
 
     public BlockBase(Material material, String name) {
         super(material, MOD_ID, name);
-        setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        setCreativeTab(MTTTrains.TERRAIN_CREATIVE_TAB);
     }
 
     @Override
@@ -41,4 +41,5 @@ public class BlockBase extends BlockMod {
     public boolean isNormalCube(IBlockState state, IBlockAccess world, BlockPos pos) {
         return false;
     }
+
 }

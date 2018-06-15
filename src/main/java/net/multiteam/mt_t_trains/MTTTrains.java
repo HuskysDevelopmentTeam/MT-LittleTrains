@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.multiteam.mt_t_trains.entity.CustomDataSerializers;
 import net.multiteam.mt_t_trains.entity.EntityTrain;
 import net.multiteam.mt_t_trains.entity.vehicle.*;
+import net.multiteam.mt_t_trains.init.MTBlocks;
 import net.multiteam.mt_t_trains.init.MTItems;
 import net.multiteam.mt_t_trains.network.PacketHandler;
 import net.multiteam.mt_t_trains.proxy.SProxy;
@@ -20,10 +21,23 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class MTTTrains {
 
-    public static final CreativeTabs MT_T_TRAINS_CREATIVE_TAB = new CreativeTabs("mt_t_trains") {
+    public static final CreativeTabs MAIN_CREATIVE_TAB = new CreativeTabs("little_trains_main") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(MTItems.DB_ICE_MOTORCART_BODY);
+            return new ItemStack(MTBlocks.MODELLER_TABLE);
+        }
+    };
+    public static final CreativeTabs ITEMS_CREATIVE_TAB = new CreativeTabs("little_trains_items") {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(MTItems.ENGINE[0]);
+        }
+    };
+    public static final CreativeTab TRAINS_CREATIVE_TAB = new CreativeTab("MT: LittleTrains Trains");
+    public static final CreativeTabs TERRAIN_CREATIVE_TAB = new CreativeTabs("little_trains_terrain") {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(MTBlocks.BALLAST_BLOCK);
         }
     };
 

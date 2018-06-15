@@ -16,7 +16,7 @@ public class BlockModellerTable extends BlockFacing {
 
     public BlockModellerTable() {
         super(Material.IRON, MOD_ID, "modeller_table");
-        setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        setCreativeTab(MTTTrains.MAIN_CREATIVE_TAB);
     }
 
     @Nullable

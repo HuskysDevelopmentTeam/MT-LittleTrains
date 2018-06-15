@@ -29,6 +29,7 @@ import net.multiteam.mt_t_trains.network.message.MessageAccelerating;
 import net.multiteam.mt_t_trains.network.message.MessageTurn;
 
 public abstract class EntityTrain extends Entity {
+
     private static final DataParameter<Float> CURRENT_SPEED = EntityDataManager.createKey(EntityTrain.class, DataSerializers.FLOAT);
     private static final DataParameter<Float> MAX_SPEED = EntityDataManager.createKey(EntityTrain.class, DataSerializers.FLOAT);
     private static final DataParameter<Float> ACCELERATION_SPEED = EntityDataManager.createKey(EntityTrain.class, DataSerializers.FLOAT);
@@ -82,7 +83,6 @@ public abstract class EntityTrain extends Entity {
 
     public abstract SoundEvent getMovingSound();
 
-    //TODO ability to change with nbt
     public SoundEvent getHornSound() {
         return MTSounds.HORN_MONO;
     }
@@ -236,7 +236,7 @@ public abstract class EntityTrain extends Entity {
     }
 
     @SideOnly(Side.CLIENT)
-    public void onClientUpdate() {
+    private void onClientUpdate() {
         EntityLivingBase entity = (EntityLivingBase) this.getControllingPassenger();
         if (entity != null && entity.equals(Minecraft.getMinecraft().player)) {
             AccelerationDirection acceleration = AccelerationDirection.fromEntity(entity);
@@ -275,10 +275,6 @@ public abstract class EntityTrain extends Entity {
 
                 boolean flag = source.getTrueSource() instanceof EntityPlayer && ((EntityPlayer) source.getTrueSource()).capabilities.isCreativeMode;
                 if (flag || this.getDamageTaken() > 40.0F) {
-                    if (!flag && this.world.getGameRules().getBoolean("doEntityDrops")) {
-                        //this.dropItemWithOffset(this.getItemBoat(), 1, 0.0F);
-                    }
-
                     this.setDead();
                 }
 
@@ -340,39 +336,35 @@ public abstract class EntityTrain extends Entity {
         return this.currentSpeed != 0;
     }
 
-    public float getMaxSpeed() {
+    private float getMaxSpeed() {
         return this.dataManager.get(MAX_SPEED);
     }
 
-    public void setMaxSpeed(float maxSpeed) {
+    private void setMaxSpeed(float maxSpeed) {
         this.dataManager.set(MAX_SPEED, maxSpeed);
     }
 
-    public float getSpeed() {
+    private float getSpeed() {
         return this.currentSpeed;
     }
 
-    public void setSpeed(float speed) {
+    private void setSpeed(float speed) {
         this.dataManager.set(CURRENT_SPEED, speed);
     }
 
-    public float getNormalSpeed() {
+    float getNormalSpeed() {
         return this.currentSpeed / this.getMaxSpeed();
     }
 
-    public float getAccelerationSpeed() {
+    private float getAccelerationSpeed() {
         return this.dataManager.get(ACCELERATION_SPEED);
     }
 
-    public void setAccelerationSpeed(float speed) {
+    private void setAccelerationSpeed(float speed) {
         this.dataManager.set(ACCELERATION_SPEED, speed);
     }
 
-    public double getKilometersPreHour() {
-        return Math.sqrt(Math.pow(this.posX - this.prevPosX, 2) + Math.pow(this.posZ - this.prevPosZ, 2)) * 20;
-    }
-
-    public TurnDirection getTurnDirection() {
+    private TurnDirection getTurnDirection() {
         return TurnDirection.values()[this.dataManager.get(TURN_DIRECTION)];
     }
 
@@ -380,7 +372,7 @@ public abstract class EntityTrain extends Entity {
         this.dataManager.set(TURN_DIRECTION, turnDirection.ordinal());
     }
 
-    public AccelerationDirection getAcceleration() {
+    AccelerationDirection getAcceleration() {
         return AccelerationDirection.values()[this.dataManager.get(ACCELERATION_DIRECTION)];
     }
 
@@ -388,19 +380,19 @@ public abstract class EntityTrain extends Entity {
         this.dataManager.set(ACCELERATION_DIRECTION, direction.ordinal());
     }
 
-    public int getTurnSensitivity() {
+    private int getTurnSensitivity() {
         return this.dataManager.get(TURN_SENSITIVITY);
     }
 
-    public void setTurnSensitivity(int sensitivity) {
+    private void setTurnSensitivity(int sensitivity) {
         this.dataManager.set(TURN_SENSITIVITY, sensitivity);
     }
 
-    public int getMaxTurnAngle() {
+    private int getMaxTurnAngle() {
         return this.dataManager.get(MAX_TURN_ANGLE);
     }
 
-    public void setMaxTurnAngle(int turnAngle) {
+    private void setMaxTurnAngle(int turnAngle) {
         this.dataManager.set(MAX_TURN_ANGLE, turnAngle);
     }
 
@@ -414,7 +406,7 @@ public abstract class EntityTrain extends Entity {
     /**
      * Sets the time to count down from since the last time entity was hit.
      */
-    public void setTimeSinceHit(int timeSinceHit) {
+    private void setTimeSinceHit(int timeSinceHit) {
         this.dataManager.set(TIME_SINCE_HIT, timeSinceHit);
     }
 
@@ -428,15 +420,15 @@ public abstract class EntityTrain extends Entity {
     /**
      * Sets the damage taken from the last hit.
      */
-    public void setDamageTaken(float damageTaken) {
+    private void setDamageTaken(float damageTaken) {
         this.dataManager.set(DAMAGE_TAKEN, damageTaken);
     }
 
-    public EngineType getEngineType() {
+    private EngineType getEngineType() {
         return EngineType.getType(this.dataManager.get(ENGINE_TYPE));
     }
 
-    public void setEngineType(EngineType engineType) {
+    private void setEngineType(EngineType engineType) {
         this.dataManager.set(ENGINE_TYPE, engineType.ordinal());
     }
 
@@ -445,11 +437,11 @@ public abstract class EntityTrain extends Entity {
         return true;
     }
 
-    public Vec3d getEngineSmokePosition() {
+    Vec3d getEngineSmokePosition() {
         return new Vec3d(0, 0, 0);
     }
 
-    public boolean shouldShowEngineSmoke() {
+    boolean shouldShowEngineSmoke() {
         return false;
     }
 
@@ -484,9 +476,6 @@ public abstract class EntityTrain extends Entity {
             this.dir = dir;
         }
 
-        public int getDir() {
-            return dir;
-        }
     }
 
     public enum AccelerationDirection {

@@ -9,12 +9,12 @@ public class ItemPart extends ItemMod {
 
     public ItemPart(String id) {
         super(id, MOD_ID);
-        this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        this.setCreativeTab(MTTTrains.MAIN_CREATIVE_TAB);
     }
 
     public ItemPart(String id, String... variants) {
         super(id, MOD_ID, variants);
-        this.setCreativeTab(MTTTrains.MT_T_TRAINS_CREATIVE_TAB);
+        this.setCreativeTab(MTTTrains.MAIN_CREATIVE_TAB);
     }
 
 }
