@@ -1,0 +1,55 @@
+#GUI
+itemGroup.mt_t_trains=MT: Malé vláčky
+
+#TRAINS-STEAM
+item.C62_steam_locomotive_body.name=C62 Parní lokomotiva (hlavní část)
+item.C62_steam_locomotive.name=C62 Parní lokomotiva
+item.C62_steam_locomotive_tender.name=C62 Parní lokomotiva - tendr
+item.C62_steam_locomotive_tender_body.name=C62 Parní lokomotiva - tendr (hlavní část)
+
+#TRAINS-DIESEL
+
+#TRAINS-ELECTRIC
+item.db_ice_motorcart_electric_body.name=DB ICE Rychlovlak (hlavní část)
+item.db_ice_motorcart_electric.name=DB ICE Rychlovlak
+item.rhb_te_2_2_body.name=RHB TE 2-2 (hlavní část)
+item.rhb_te_2_2.name=RHB TE 2-2
+
+#TRACKS
+tile.straight_track.name=Přímá kolej
+tile.straight_track_ballasted.name=Přímá kolej s zábranou
+tile.straight_track_garss_plated.name=Přímá kolej - travnatá plocha
+tile.buffer_track.name=Vyrovnávací kolej
+tile.buffer_track_ballasted.name=Vyrovnávací kolej s zábranou
+tile.buffer_track_grass_plated.name=Vyrovnávací kolej - travnatá plocha
+tile.power_track.name=Napájecí kolej
+tile.power_track_ballasted.name=Napájecí kolej s zábranou
+tile.power_track_grass_plated.name=Napájecí kolej - travnatá plocha
+tile.turn_track_90_deg.name=Zatáčka(90 stupňů)
+tile.turn_track_90_deg_ballasted.name=Zatáčka se zábranou (90 stupňů)
+tile.turn_track_90_deg_grass_plated.name=Zatáčka - travnatá plocha (90 stupňů)
+
+
+#BLOCKS
+tile.modeller_table.name=Modelovací stůl
+tile.control_box.name=Ovládací krabička
+tile.tin_ore.name=Ruda cínu
+tile.tin_block.name=Cínový blok
+tile.copper_ore.name=Ruda mědi
+tile.copper_block.name=Měděný blok
+tile.cobble_andesite.name=Dlážděný andezit
+tile.cobble_hardened_clay.name=Dlažba z tvrzeného hliníku
+tile.ballast_block.name=Zábrana
+
+
+#ITEMS-PARTS
+item.small_wheel.name=Malé kolo vlaku
+item.normal_wheel.name=Klasické kolo vlaku
+item.big_wheel.name=Velké kolo vlaku
+item.simple_electric_engine.name=Elektrický motor
+item.electric_steam_boiler.name=Elektrický motor pro párovky
+item.electric_diesel_engine.name=Elektrický motor pro dýzl
+
+
+#ITEMS-TOOLS
+item.controller.name=Ovladač pro vláčky

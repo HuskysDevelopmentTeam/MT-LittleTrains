@@ -1,0 +1,54 @@
+#GUI
+itemGroup.mt_t_trains=MT: LittleTrains
+
+#TRAINS-STEAM
+item.C62_steam_locomotive_body.name=C62 Damp Lokomotiv (kropp)
+item.C62_steam_locomotive.name=C62 Damp lokomotiv
+item.C62_steam_locomotive_tender.name=C62 Damp Lokomotiv Tender
+item.C62_steam_locomotive_tender_body.name=C62 Damp Lokomotiv Tender (kropp)
+
+#TRAINS-DIESEL
+
+#TRAINS-ELECTRIC
+item.db_ice_motorcart_electric_body.name=DB ICE Motorkjøretøy (kropp)
+item.db_ice_motorcart_electric.name=DB ICE Motorkjøretøy
+item.rhb_te_2_2_body.name=RHB TE 2-2 (kropp)
+item.rhb_te_2_2.name=RHB TE 2-2
+
+#TRACKS
+tile.straight_track.name=Rett Spor
+tile.straight_track_ballasted.name=Rett Spor på Ballast
+tile.straight_track_garss_plated.name=Rett Spor på Gress Plate
+tile.buffer_track.name=Buffer Spor
+tile.buffer_track_ballasted.name=Buffer Spor på Ballast
+tile.buffer_track_grass_plated.name=Buffer Spor på Gress Plate
+tile.power_track.name=Strøm Spor
+tile.power_track_ballasted.name=Strøm Spor på Ballast
+tile.power_track_grass_plated.name=Strøm Spor på Gress Plate
+tile.turn_track_90_deg.name=Snu Spor (90 grader)
+tile.turn_track_90_deg_ballasted.name=Snuspor på ballast (90 grader)
+tile.turn_track_90_deg_grass_plated.name=Snu Spor på Gress Plate(90 grader)
+
+
+#BLOCKS
+tile.modeller_table.name=Modell Bord
+tile.control_box.name=Kontroll Boks
+tile.tin_ore.name=Tin Malm
+tile.tin_block.name=Tin Blokk
+tile.copper_ore.name=Kobber Malm
+tile.copper_block.name=Kobber Blokk
+tile.cobble_andesite.name=Brolegge Andesitt
+tile.cobble_hardened_clay.name=Brolegge Stivnet Leire
+tile.ballast_block.name=Ballast blokk
+
+
+#ITEMS-PARTS
+item.small_wheel.name=Lite Tog Hjul
+item.normal_wheel.name=Normal Tog Hjul
+item.big_wheel.name=Strort Tog Hjul
+item.simple_electric_engine.name=Elektrisk Motor
+item.electric_steam_boiler.name=Elektrisk Motor For Damp
+item.electric_diesel_engine.name=Elektrisk Disel
+
+#ITEMS-TOOLS
+item.controller.name=Tog Kontrolør
