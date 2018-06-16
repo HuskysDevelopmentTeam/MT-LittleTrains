@@ -7,6 +7,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.world.World;
 import net.multiteam.mt_t_trains.MTTTrains;
+import net.multiteam.mt_t_trains.tileentity.TileControlBox;
 
 import javax.annotation.Nullable;
 
@@ -27,7 +28,7 @@ public class BlockControlBox extends BlockFacing {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return super.createTileEntity(world, state);
+        return new TileControlBox();
     }
 
     /**

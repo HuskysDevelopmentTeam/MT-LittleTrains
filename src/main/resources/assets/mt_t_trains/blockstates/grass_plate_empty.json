@@ -1,0 +1,25 @@
+{
+  "_comment": "Generated using Husky's JSON Generator v3.",
+  "forge_marker": 1,
+  "defaults": {
+    "model": "mt_t_trains:grass_plate_empty",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "facing": {
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "east": {
+        "y": 90
+      },
+      "west": {
+        "y": 270
+      }
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

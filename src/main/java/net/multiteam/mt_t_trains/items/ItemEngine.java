@@ -13,7 +13,7 @@ import net.multiteam.mt_t_trains.entity.EngineType;
 import javax.annotation.Nullable;
 import java.util.List;
 
-public class ItemEngine extends ItemPart {
+public class ItemEngine extends ItemCraftingMaterial {
 
     private EngineType type;
 

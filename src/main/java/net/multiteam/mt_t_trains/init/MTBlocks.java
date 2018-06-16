@@ -5,10 +5,8 @@ import net.minecraft.block.material.Material;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.multiteam.mt_t_trains.block.BlockBase;
-import net.multiteam.mt_t_trains.block.BlockControlBox;
-import net.multiteam.mt_t_trains.block.BlockModellerTable;
-import net.multiteam.mt_t_trains.block.BlockRailBase;
+import net.multiteam.mt_t_trains.block.*;
+import net.multiteam.mt_t_trains.enums.DecoPlatesVariants;
 import net.multiteam.mt_t_trains.enums.TrackVariants;
 
 import static net.multiteam.mt_t_trains.Reference.MOD_ID;
@@ -16,13 +14,17 @@ import static net.multiteam.mt_t_trains.Reference.MOD_ID;
 @Mod.EventBusSubscriber(modid = MOD_ID)
 public class MTBlocks {
 
-    public static final Block[] TRACKS = new Block[15];
+    public static final Block[] TRACKS = new Block[28];
     public static final Block CONTROL_BOX, MODELLER_TABLE;
     public static final Block BALLAST_BLOCK, COBBLE_ANDESITE, COBBLE_HARDENED_CLAY, COPPER_BLOCK, COPPER_ORE, TIN_BLOCK, TIN_ORE;
+    public static final Block[] DECO_PLATES = new Block[20];
 
     static {
         for(TrackVariants trackVariants : TrackVariants.values()) {
             TRACKS[trackVariants.getId()] = new BlockRailBase(String.format("track_%s", trackVariants.getName()));
+        }
+        for(DecoPlatesVariants decoPlatesVariants : DecoPlatesVariants.values()) {
+            DECO_PLATES[decoPlatesVariants.getId()] = new BlockFacingBase(decoPlatesVariants.getName(), decoPlatesVariants.isPlate());
         }
 
         CONTROL_BOX = new BlockControlBox();

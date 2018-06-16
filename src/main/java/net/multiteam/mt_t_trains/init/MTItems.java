@@ -8,6 +8,7 @@ import net.multiteam.mt_t_trains.entity.EngineType;
 import net.multiteam.mt_t_trains.entity.vehicle.*;
 import net.multiteam.mt_t_trains.enums.EnumWheelTypes;
 import net.multiteam.mt_t_trains.items.*;
+import net.multiteam.mt_t_trains.items.train.ItemModelTrain;
 
 import static net.multiteam.mt_t_trains.Reference.MOD_ID;
 
@@ -23,20 +24,20 @@ public class MTItems {
 
     static {
         for (EnumWheelTypes wheelTypes : EnumWheelTypes.values()) {
-            TRAIN_WHEEL[wheelTypes.getId()] = new ItemPart(wheelTypes.getName() + "_wheel");
+            TRAIN_WHEEL[wheelTypes.getId()] = new ItemCraftingMaterial(wheelTypes.getName() + "_wheel");
         }
         DB_ICE_MOTORCART = new ItemModelTrain<>("db_ice_motorcart_electric", EntityDBIceMotorcart::new);
-        DB_ICE_MOTORCART_BODY = new ItemColoredPart("db_ice_motorcart_electric_body");
+        DB_ICE_MOTORCART_BODY = new ItemCraftingMaterial("db_ice_motorcart_electric_body");
         C62_STEAM_LOCOMOTIVE = new ItemModelTrain<>("C62_steam_locomotive", EntityC62SteamLocomotive::new);
-        C62_STEAM_LOCOMOTIVE_BODY = new ItemColoredPart("C62_steam_locomotive_body");
+        C62_STEAM_LOCOMOTIVE_BODY = new ItemCraftingMaterial("C62_steam_locomotive_body");
         C62_STEAM_LOCOMOTIVE_TENDER = new ItemModelTrain<>("C62_steam_locomotive_tender", EntityC62SteamLocomotiveTender::new);
-        C62_STEAM_LOCOMOTIVE_TENDER_BODY = new ItemColoredPart("C62_steam_locomotive_tender_body");
+        C62_STEAM_LOCOMOTIVE_TENDER_BODY = new ItemCraftingMaterial("C62_steam_locomotive_tender_body");
         RBH_TE_2_2 = new ItemModelTrain<>("rhb_te_2_2", EntityRbhTE22::new);
-        RBH_TE_2_2_BODY = new ItemColoredPart("rhb_te_2_2_body");
-        ČD_810_BODY = new ItemColoredPart("ČD_810_body");
+        RBH_TE_2_2_BODY = new ItemCraftingMaterial("rhb_te_2_2_body");
         ČD_810 = new ItemModelTrain<>("ČD_810", EntityČD810::new);
-        SantaFe_8081_BODY = new ItemColoredPart("santafe_8081_body");
+        ČD_810_BODY = new ItemCraftingMaterial("ČD_810_body");
         SantaFe_8081 = new ItemModelTrain<>("santafe_8081", EntitySantaFe8081::new);
+        SantaFe_8081_BODY = new ItemCraftingMaterial("santafe_8081_body");
 
         TRAIN_CONTROLLER = new ItemController();
         for (EngineType type : EngineType.values()) {

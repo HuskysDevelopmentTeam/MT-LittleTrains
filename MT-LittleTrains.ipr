@@ -183,19 +183,24 @@
     <dictionary name="user">
       <words>
         <w>andesite</w>
+        <w>blockbench</w>
         <w>blockrailbase</w>
         <w>blockstate</w>
         <w>crccm</w>
         <w>dbrown</w>
         <w>enumraildirection</w>
+        <w>grassplate</w>
         <w>immersiverailroading</w>
+        <w>jannis</w>
         <w>keybind</w>
+        <w>lapis</w>
         <w>lerp</w>
         <w>mcversion</w>
         <w>minecraft</w>
         <w>motorcart</w>
         <w>multiteam</w>
         <w>santafe</w>
+        <w>voxels</w>
       </words>
     </dictionary>
   </component>

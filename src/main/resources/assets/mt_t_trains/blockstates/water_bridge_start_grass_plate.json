@@ -1,0 +1,27 @@
+{
+  "_comment": "Generated using Husky's JSON Generator v3.",
+  "forge_marker": 1,
+  "defaults": {
+    "model": "mt_t_trains:water_bridge_start_grass_plate",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "facing": {
+      "north": {
+        "y": 0
+      },
+      "south": {
+        "y": 180
+      },
+      "east": {
+        "y": 90
+      },
+      "west": {
+        "y": 270
+      }
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

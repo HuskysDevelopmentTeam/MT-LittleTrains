@@ -1,4 +1,4 @@
-package net.multiteam.mt_t_trains.items;
+package net.multiteam.mt_t_trains.items.train;
 
 import net.hdt.huskylib2.items.ItemMod;
 import net.minecraft.entity.player.EntityPlayer;
