@@ -1,9 +1,10 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mt_t_trains:blocks/turn_track_90_deg_grassplate",
-		"4_0": "mt_t_trains:blocks/straight_buffer_track_1b_grassplate",
-		"particle": "mt_t_trains:blocks/straight_buffer_track_1b_grassplate"
+		"0": "blocks/grassplate_empty",
+		"4_0": "blocks/straight_buffer_track_1b_grassplate_e",
+		"1_0": "blocks/straight_buffer_track_1b_grassplate_e",
+		"particle": "blocks/straight_buffer_track_1b_grassplate_e"
 	},
 	"elements": [
 		{
@@ -594,6 +595,58 @@
 				"up": {"uv": [0.49928, 6.49977, 2.24723, 7.74753], "texture": "#4_0"},
 				"down": {"uv": [0.49928, 6.49977, 2.24723, 7.74753], "texture": "#4_0"}
 			}
+		},
+		{
+			"from": [6.85, 3.85, 13.5],
+			"to": [7.55, 4.5, 13.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.2, 4.275, 13.65]},
+			"faces": {
+				"north": {"uv": [14.5, 0, 14.85, 0.325], "texture": "#1_0", "rotation": 180},
+				"east": {"uv": [0, 9, 0.15, 9.325], "texture": "#1_0", "rotation": 180},
+				"south": {"uv": [0, 9, 0.35, 9.325], "texture": "#1_0", "rotation": 180},
+				"west": {"uv": [0, 9, 0.15, 9.325], "texture": "#1_0", "rotation": 180},
+				"up": {"uv": [0, 9, 0.35, 9.15], "texture": "#1_0", "rotation": 180},
+				"down": {"uv": [0, 9, 0.35, 9.15], "texture": "#1_0", "rotation": 180}
+			}
+		},
+		{
+			"from": [8.45, 3.85, 13.5],
+			"to": [9.15, 4.5, 13.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.8, 4.275, 13.65]},
+			"faces": {
+				"north": {"uv": [14.5, 0, 14.85, 0.325], "texture": "#1_0", "rotation": 180},
+				"east": {"uv": [0, 9, 0.15, 9.325], "texture": "#1_0", "rotation": 180},
+				"south": {"uv": [0, 9, 0.35, 9.325], "texture": "#1_0", "rotation": 180},
+				"west": {"uv": [0, 9, 0.15, 9.325], "texture": "#1_0", "rotation": 180},
+				"up": {"uv": [0, 9, 0.35, 9.15], "texture": "#1_0", "rotation": 180},
+				"down": {"uv": [0, 9, 0.35, 9.15], "texture": "#1_0", "rotation": 180}
+			}
+		},
+		{
+			"from": [8.65, 3.15, 13.6],
+			"to": [8.95, 4.1, 13.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.8, 4.275, 13.65]},
+			"faces": {
+				"north": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"east": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"south": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"west": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"up": {"uv": [0, 9, 0.15, 9.15], "texture": "#1_0", "rotation": 180},
+				"down": {"uv": [0, 9, 0.15, 9.15], "texture": "#1_0", "rotation": 180}
+			}
+		},
+		{
+			"from": [7.05, 3.15, 13.6],
+			"to": [7.35, 4.1, 13.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.2, 4.275, 13.65]},
+			"faces": {
+				"north": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"east": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"south": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"west": {"uv": [0, 9, 0.15, 9.475], "texture": "#1_0", "rotation": 180},
+				"up": {"uv": [0, 9, 0.15, 9.15], "texture": "#1_0", "rotation": 180},
+				"down": {"uv": [0, 9, 0.15, 9.15], "texture": "#1_0", "rotation": 180}
+			}
 		}
 	],
 	"display": {
@@ -675,6 +728,46 @@
 						"autouv": true
 					},
 					"children": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+				}
+			]
+		},
+		{
+			"name": "lights",
+			"shade": true,
+			"display": {
+				"visibility": true,
+				"autouv": true
+			},
+			"children": [
+				{
+					"name": "track_iron",
+					"isOpen": true,
+					"shade": true,
+					"display": {
+						"visibility": true,
+						"autouv": true
+					},
+					"children": []
+				},
+				{
+					"name": "buffer",
+					"isOpen": true,
+					"shade": true,
+					"display": {
+						"visibility": true,
+						"autouv": true
+					},
+					"children": [48, 49, 50, 51]
+				},
+				{
+					"name": "track_wood",
+					"isOpen": true,
+					"shade": true,
+					"display": {
+						"visibility": true,
+						"autouv": true
+					},
+					"children": []
 				}
 			]
 		}
